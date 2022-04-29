@@ -1,0 +1,34 @@
+{% extends "template.html" %}
+
+{% set page ='portfolio' %}
+
+{% block meta %}
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+    
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfoio Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfoio Details</li>
+          </ol>
+        </div>
+        
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    {% include "parts/portfolio-details-section.html" %}
+
+  </main><!-- End #main -->
+
+{% endblock %}
