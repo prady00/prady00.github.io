@@ -36,7 +36,6 @@ jobs:
           node-version: 8
       - name: 🔨 Build Project
         run: |
-          cd source
           npm install
           npm install -g gulp
           gulp
