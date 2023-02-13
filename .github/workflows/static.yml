@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 6  
+          node-version: 5  
       - name: 🔨 Build Project
         run: |
           cd source
