@@ -36,12 +36,8 @@ jobs:
           node-version: 8
       - name: 🔨 Build Project
         run: |
-          cd source
           npm install
-<<<<<<< HEAD
           npm install -g gulp
-=======
->>>>>>> 727344b9943df4bf403b38f32d2f74d79dfcea44
           gulp
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -49,11 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-<<<<<<< HEAD
           path: 'dist'
-=======
-          path: '.'
->>>>>>> 727344b9943df4bf403b38f32d2f74d79dfcea44
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
