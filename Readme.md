@@ -1,39 +1,11 @@
 # Portfolio Website
 This was a website built to showcase my technical & leadership skills.
 
-## Project timeline and technologies used
+[Link : https://prady00.github.io](https://prady00.github.io)
 
-Build a React website in 24 hours to showcase the following:
-* My technical skill set
-* My web design skill set
-* My projects
-
-### Technologies Used
+### Technologies Used for this Website
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
-* SCSS
-* Git
-* GitHub
-* React
-* Webpack
-* Bulma
-* Node JS
-* Babel
-
-
-
-## Homepage visuals
-
-
-![Imgur](https://i.imgur.com/zzTxoS2.png?1)
-![Imgur](https://i.imgur.com/voIJ0AG.png?1)
-![Imgur](https://i.imgur.com/xjHH6Hr.png?1)
-![Imgur](https://i.imgur.com/3JJlqb9.png?1)
-![Imgur](https://i.imgur.com/4MTPw56.png?1)
-![Imgur](https://i.imgur.com/dDprlF7.png?1)
-
-## Skill set visuals
-
-![Imgur](https://i.imgur.com/bVE2xqe.png?1)
+* Gulp
