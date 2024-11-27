@@ -1,5 +1,5 @@
 # Portfolio Website
-This was a website built to showcase my technical & leadership skills.
+Portfolio Website.
 
 [Link : https://prady00.github.io](https://prady00.github.io)
 
@@ -9,3 +9,4 @@ This was a website built to showcase my technical & leadership skills.
 * CSS3
 * JavaScript (ES6)
 * Gulp
+
