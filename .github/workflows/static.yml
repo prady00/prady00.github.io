@@ -20,37 +20,38 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-22.04
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: 🧾 Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
 
-      - name: 🔨 Build Project
+      - name: 🔨 Install Dependencies and Build
         run: |
           npm install
           npm install -g gulp
           gulp
 
-      # Optional: Dummy artifact step to satisfy internal v3 call
-      - name: Dummy artifact step (to avoid v3 missing error)
+      - name: 📦 Upload Dummy Artifact (Optional)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dummy
           path: README.md
           if-no-files-found: ignore
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+      - name: 🛠️ Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: ⬆️ Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: dist
 
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
