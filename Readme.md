@@ -9,6 +9,7 @@ Link : [https://prady00.github.io](https://prady00.github.io)
 * CSS3
 * JavaScript
 * Gulp
+* node-v14.21.3-win-x64
 
 ### Hosted with Github pages
 
@@ -17,3 +18,8 @@ Read more about github pages  [https://pages.github.com/](https://pages.github.c
 ### Continuos Deployment 
 
 Using Github Actions
+
+### Serving Local 
+
+npm install
+npm start

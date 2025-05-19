@@ -219,6 +219,72 @@ section {
 
 }
 
+/*--------------------------------------------------------------
+# speaking
+--------------------------------------------------------------*/
+.speaking {
+
+    .speaking-title {
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: $secondary;
+    }
+    
+    .speaking-item {
+      padding: 0 0 20px 20px;
+      margin-top: -2px;
+      border-left: 2px solid lighten($secondary, 30);
+      position: relative;
+  
+      h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: $font-secondary;
+        color: $secondary;
+        margin-bottom: 10px;
+      }
+  
+      h5 {
+        font-size: 16px;
+        background: lighten($secondary, 88);
+        padding: 5px 15px;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        padding-left: 20px;
+  
+        li {
+          padding-bottom: 10px;
+        }
+      }
+  
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  
+    .speaking-item::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      left: -9px;
+      top: 0;
+      background: $white;
+      border: 2px solid lighten($secondary, 30);
+    }
+  
+  
+  }
+
 
 /*--------------------------------------------------------------
 # OpenSource
@@ -293,6 +359,9 @@ section {
 
   .portfolio-item {
     margin-bottom: 30px;
+    margin-inline: 15px;
+    /* margin-right: 10px; */
+    border-left: 1px solid rgba(20, 157, 221, 0.5);
   }
 
   #portfolio-flters {
@@ -408,6 +477,10 @@ section {
 .portfolio-project-title{
   padding-top:10px
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Services
