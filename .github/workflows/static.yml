@@ -28,7 +28,7 @@ jobs:
       - name: ⚙️ Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 16
 
       - name: 🔨 Install Dependencies and Build
         run: |
