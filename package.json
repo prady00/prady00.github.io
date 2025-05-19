@@ -30,7 +30,8 @@
     "gulp-beautify": "^3.0.0",
     "gulp-inject-string": "^1.1.2",
     "gulp-nunjucks": "^5.0.1",
-    "gulp-sass": "^4.1.0",
-    "merge-stream": "^2.0.0"
+    "gulp-sass": "^5.1.0",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.75.0"
   }
 }
